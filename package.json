@@ -1,0 +1,19 @@
+{
+  "name": "khud",
+  "version": "1.0.0",
+  "description": "webkhud",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "golubevog",
+  "license": "ISC",
+  "devDependencies": {
+    "http": "0.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "ejs": "*"
+  }
+}

@@ -1,0 +1,50 @@
+.holst {
+  opacity: 0;
+  animation: appearing 0.5s 0s ease-in-out forwards;
+  -o-animation: appearing 0.5s 0s ease-in-out forwards;
+  -moz-animation: appearing 0.5s 0s ease-in-out forwards;
+  -webkit-animation: appearing 0.5s 0s ease-in-out forwards;
+}
+
+.content_main {
+  opacity: 0;
+  animation: appearing 0.5s 0s ease-in-out forwards;
+  -o-animation: appearing 0.5s 0s ease-in-out forwards;
+  -moz-animation: appearing 0.5s 0s ease-in-out forwards;
+  -webkit-animation: appearing 0.5s 0s ease-in-out forwards;
+}
+
+@-webkit-keyframes appearing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes appearing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes appearing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes appearing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=animation-stat.css.map */

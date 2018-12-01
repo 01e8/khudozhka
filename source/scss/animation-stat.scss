@@ -1,0 +1,33 @@
+@mixin animation($anim) {
+  animation: $anim;
+  -o-animation: $anim;
+  -moz-animation: $anim;
+  -webkit-animation: $anim;
+}
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+.holst{
+  opacity: 0;
+  @include animation(appearing 0.5s 0s ease-in-out forwards);
+}
+.content_main {
+  opacity: 0;
+  @include animation(appearing 0.5s 0s ease-in-out forwards);
+}
+@include keyframes(appearing) {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
